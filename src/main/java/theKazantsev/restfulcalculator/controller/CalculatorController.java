@@ -1,12 +1,12 @@
-package theKazantsev.RESTfulCalculator.controller;
+package theKazantsev.restfulcalculator.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import theKazantsev.RESTfulCalculator.logic.*;
-import theKazantsev.RESTfulCalculator.logic.exception.DivideByZeroException;
+import theKazantsev.restfulcalculator.logic.*;
+import theKazantsev.restfulcalculator.logic.exception.DivideByZeroException;
 
 import java.util.concurrent.atomic.AtomicLong;
 

@@ -1,4 +1,4 @@
-package theKazantsev.RESTfulCalculator.logic;
+package theKazantsev.restfulcalculator.logic;
 
 public class Add extends General {
 

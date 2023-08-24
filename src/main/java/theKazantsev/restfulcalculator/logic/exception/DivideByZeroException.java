@@ -1,4 +1,4 @@
-package theKazantsev.RESTfulCalculator.logic.exception;
+package theKazantsev.restfulcalculator.logic.exception;
 
 public class DivideByZeroException extends RuntimeException {
     public DivideByZeroException(String message) {
